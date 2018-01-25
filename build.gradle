@@ -17,8 +17,12 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenCentral()
         google()
         jcenter()
+        maven {
+            url  "https://giphy.bintray.com/giphy-sdk"
+        }
     }
 }
 
